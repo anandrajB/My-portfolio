@@ -151,7 +151,7 @@ EMAIL_HOST_PASSWORD = "TheSingleApp@2019"
 
 #maintanance mode
 #True --> on   ,  None --> OFF
-MAINTENANCE_MODE = True
+MAINTENANCE_MODE = None
 
 # MAINTENANCE_MODE_TEMPLATE = 'templates/503.html'
 
