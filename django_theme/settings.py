@@ -153,7 +153,7 @@ EMAIL_HOST_PASSWORD = "btuzerrlavbbmorw"
 
 #maintanance mode
 #True --> on   ,  None --> OFF
-MAINTENANCE_MODE = True
+MAINTENANCE_MODE = False
 
 # MAINTENANCE_MODE_TEMPLATE = 'templates/503.html'
 
