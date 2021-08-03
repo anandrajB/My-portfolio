@@ -338,6 +338,7 @@ h6 {
     #hero {
         text-align: center;
         background-image: url("../img/anand.png");
+        text-align: center;
     }
     #hero h1 {
         font-size: 32px;
