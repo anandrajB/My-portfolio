@@ -13,6 +13,8 @@ urlpatterns = [
     path('resume',views.resume , ),
     path('contact', views.contact ,),
     path('portfolio', views.portfolio,),
+    path('scanner', views.scanner,),
+    path('custom', views.customeuser,),
     url(r'^download/(?P<path>.*)$', serve, {'document_root': settings.MEDIA_ROOT}),
     path('maintanance',views.maintanace_mode,),
    ]

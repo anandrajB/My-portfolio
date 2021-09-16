@@ -69,6 +69,12 @@ def resume(request):
 def portfolio(request):
 	return render(request,'app/others/portfolio-details.html')
 
+def scanner(request):
+	return render(request,'app/others/scanner.html')
+
+def customeuser(request):
+	return render(request,'app/others/custom.html')
+
 def maintanace_mode(request):
     return render(request,'app/others/503.html')
 
