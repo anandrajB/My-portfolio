@@ -75,6 +75,10 @@ def scanner(request):
 def customeuser(request):
 	return render(request,'app/others/custom.html')
 
+
+def doctor(request):
+	return render(request,'app/others/doctor.html')
+
 def maintanace_mode(request):
     return render(request,'app/others/503.html')
 
